@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeLeaf.org" th:replace="~{normal/base::layout(~{::section})}">
+<head>
+    <meta charset="UTF-8">
+    <title>User Dashboard</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* CSS for background image */
+        body {
+            background-image: url('/images/background.jpg'); /* Adjust the path to your image */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh; /* Ensures that the background covers the entire viewport height */
+        }
+    </style>
+</head>
+<body>
+<section>
+
+
+
+    <main role="main" class="container">
+        <div class="row">
+            <div class="col-md-12">
+
+
+                <!-- Overview -->
+
+                <div class="container text-center">
+
+                    <!-- Image Section -->
+                    <div class="row mt-4">
+                        <div class="col-md-12 text-center">
+                            <h2>Welcome to Contact - Manager App</h2>
+                            <img th:src="@{/img/dashboardpic.jpeg}" alt="Image" class="img-fluid">
+                        </div>
+                    </div>
+
+                <a href="#" th:href="@{/user/add_contact}" class="btn btn-success mt-3">Add Contact</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+</section>
+</body>
+</html>
