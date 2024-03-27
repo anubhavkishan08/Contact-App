@@ -1,0 +1,90 @@
+body{
+background:#e2e2e2!important;
+}
+.bg-primary{
+ background:#009688!important
+}
+
+.banner{
+      padding: 15px 15px;
+      background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../img/contact_home.jpeg);
+      background-repeat: no-repeat;
+      width:100%;
+      height:93vh;
+      background-position: center;
+      background-size: cover;
+}
+.heading{
+    font-weight: light;
+    color:white;
+    text-align: center;
+}
+
+.my-card{
+    padding:20px;
+    background:#ffffff;
+}
+
+/*sidebar design*/
+.sidebar{
+    width:18%;
+    background:white;
+    height:100%;
+    position:fixed;
+    padding-top:45px;
+}
+
+.sidebar a{
+    display:block;
+    width:100%;
+    padding:10px 25px;
+    text-decoration:none;
+    color:black;
+    z-index=999999999999;
+}
+
+.sidebar a:hover{
+    background:#009688;
+}
+
+.sidebar .divider{
+    height:.5px;
+    width:100%;
+    background:black;
+    margin-top:10 px;
+}
+
+.content{
+    margin-left:20%
+}
+
+.sidebar .crossBtn{
+    position:absolute;
+    top:0;
+    right:35px;
+    font-size:25px;
+    cursor:pointer;
+}
+
+.custom-file {
+        float: left; /* This will make the div float to the left */
+        margin-right:20px; /* Adjust the margin as needed */
+        margin-top:10px;
+    }
+
+.submit{
+        float: left;
+        margin-right:20px;
+        margin-top:50px;
+    }
+
+        /* Custom styles for social icons */
+        .social-icon {
+            color: black; /* Set icon color to black */
+            font-size: 2rem; /* Increase icon size */
+            margin: 0 5px; /* Add some margin between icons */
+        }
+
+
+
+
