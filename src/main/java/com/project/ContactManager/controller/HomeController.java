@@ -81,7 +81,7 @@ public class HomeController {
 
           User result=userRepository.save(user);
           model.addAttribute("user",new User());
-          session.setAttribute("message",new Message("Sucessfully Registered !!","alert-success"));
+          session.setAttribute("message",new Message("Sucessfully Registered !! Please Login..","alert-success"));
           return "signup";
 
       }catch (Exception e){
