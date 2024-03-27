@@ -57,7 +57,7 @@ public class HomeController {
     @PostMapping("/do_register")
     public String registerUser(@Valid @ModelAttribute("user") User user, BindingResult bindingResult,
                                @RequestParam(value = "agreement",defaultValue = "false")
-                               boolean agreement, Model model,HttpServletRequest session){
+                               boolean agreement, Model model,HttpSession session){
 
       try {
           if(bindingResult.hasErrors())
